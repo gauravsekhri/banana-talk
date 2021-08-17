@@ -6,13 +6,26 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         
-        <h2>Gaurav Sekhri</h2>
-        <h5>New Branch</h5>
+        <div class="header">
+            <h1>Banana Talk</h1>
+        </div>
+
+        <div class="textinputcontainer">
+            <textarea id="text_area" rows="6" onchange="consoleText()"></textarea>
+        </div>
+
+        <div class="textinputcontainer">
+            <button id="transbtn">Translate</button>
+        </div>
+
+        <div class="textinputcontainer">
+            <div id="output"></div>
+        </div>
         
-        <script src="" async defer></script>
+        <script src="script.js" async defer></script>
     </body>
 </html>
