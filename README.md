@@ -1,2 +1,3 @@
-# gauravsekhri-site
- To showcase myprojects
+# Banana Talk
+
+Translator app
